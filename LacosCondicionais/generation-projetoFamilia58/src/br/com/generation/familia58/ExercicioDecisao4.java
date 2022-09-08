@@ -17,11 +17,11 @@ public class ExercicioDecisao4 {
 		
 		if (n1 % 2 == 0) {
 			raiz = Math.sqrt(n1);
-			System.out.println("\nRaiz: " + raiz);
+			System.out.println("\nO número é par e a raiz deste número é: " + raiz);
 		}else if(n1 % 2 >= 1) {
 			potencia = Math.pow(n1, 2);
 			
-			System.out.println("\nElevado ao quadrado: " + potencia);
+			System.out.println("\nNo número é ímpar e elevado ao quadrado seu valor é: " + potencia);
 		}
 	}
 
