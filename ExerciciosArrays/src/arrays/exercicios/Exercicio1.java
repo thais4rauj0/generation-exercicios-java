@@ -26,7 +26,7 @@ public class Exercicio1 {
 		A[4] = -5;
 		A[5]=7;
 		
-		soma = A[0] + A[5];
+		soma = A[0] + A[1]+ A[5];
 		
 		System.out.println("\nSoma de A[0] e A[5]: " + soma);
 		
